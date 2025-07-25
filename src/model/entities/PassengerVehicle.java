@@ -41,6 +41,13 @@ public class PassengerVehicle extends Vehicle{
 	public String info() {
 		return "Vehicle " + getPlate() + " accepted passengers to board of " + requested + " passengers.";
 	}
+
+	@Override
+	public void checkCapacity(Double requested) throws CapacityExceededException {
+		return;
+		
+	}
+	
 	
 	
 	

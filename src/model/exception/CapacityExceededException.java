@@ -1,6 +1,6 @@
 package model.exception;
 
-public class CapacityExceededException extends Exception{
+public class CapacityExceededException extends RuntimeException{
 
 	private static final long serialVersionUID = 1L;
 		
@@ -9,13 +9,3 @@ public class CapacityExceededException extends Exception{
 		}
 }
 
-
-
-/*public void checkCapacity (Integer requested) throws CapacityExceededException {
-	if (requested > capacity) {
-		throw new CapacityExceededException("ERROR: CapacityExceededException - Passenger limit exceeded: " 
-				+ capacity + " max.");
-	}
-}
-
-*/

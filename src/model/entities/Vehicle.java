@@ -32,6 +32,8 @@ public abstract class Vehicle {
 	
 	public abstract void checkCapacity (Integer requested) throws CapacityExceededException;
 	
+	public abstract void checkCapacity (Double requested) throws CapacityExceededException;
+	
 	public abstract String info();
 
 }
